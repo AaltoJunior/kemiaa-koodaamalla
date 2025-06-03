@@ -6,7 +6,8 @@ channels:
 dependencies:
   - python=3.10
   - cuml-cpu=23.10
-  - rdkit=2025.3.2  # installed via conda for better compatibility
+  - rdkit=2025.3.2
+  - scikit-learn=1.4.2  # Installed via conda (mamba will handle this)
   - pip
   - pip:
       - jupyter==1.1.1
